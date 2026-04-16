@@ -10,7 +10,7 @@ class ArmorTest {
 	
 	@Test
 	void constructorShouldSetAllFields() {
-		Armor armor = new Armor("Iron Armor", "Medium", 5); // Object declaration
+		Armor armor = new Armor("Iron Armor", "Medium", 5); // Object declarationn
 		
 		assertEquals("Iron Armor", armor.getName()); // Check if the getName method works correctly
 		assertEquals("Medium", armor.getDescription()); // Check if the getDescription method works correctly
